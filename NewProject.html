@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .main{
+            height: 650px;
+            width: 650px;
+            border: 2px solid black;
+            background-image: linear-gradient(rgb(44, 44, 116),green,black);
+        }
+        .dp{
+            height: 140px;
+            width: 140px;
+            border: 8px double black;
+            border-radius: 50%;
+            margin: auto;
+            margin-top: 30px;
+            background-image: url("https://s1.zerochan.net/Uchiha.Itachi.600.3175530.jpg");
+            background-size: cover;
+        }
+        .cntr{
+            display: flex;
+            height: 500px;
+            width: 500px;
+            border: 2px solid white;
+            margin: auto;
+            margin-top: 60px;
+            background-color: white;
+        }
+        .sub1{
+            height: 500px;
+            width: 300px;
+            border: 2px solid white;
+        }
+        .posts{
+            height: 163px;
+            width: 200px;
+            border: 2px solid white;
+            background-color: antiquewhite;
+        }
+        .likes{
+            height: 163px;
+            width: 200px;
+            border: 2px solid white;
+            background-color: antiquewhite;
+        }
+        .follower{
+            height: 163px;
+            width: 200px;
+            border: 2px solid white;
+            background-color: antiquewhite;
+        }
+        .error{
+            height: 650px;
+            width: 650px;
+            border: 2px solid black;
+            border-radius: 2%;
+            background-color: black;
+        }
+        .parent{
+            height: 400px;
+            width: 450px;
+            border: 2px solid white;
+            margin: auto;
+            margin-top: 120px;
+            background-color: white;
+        }
+
+        .notify{
+            height: 650px;
+            width: 650px;
+            border: 2px solid blue;
+            border-radius: 2%;
+            background-color: rgb(44, 44, 116);
+        }
+        .border2{
+            height: 480px;
+            width: 470px;
+            border: 2px solid rgb(36, 36, 113);
+            margin: auto;
+            margin-top: 80px;
+            border-radius: 2%;
+            background-color: white;
+        }
+        .sb1{
+            display: flex;
+            justify-content: space-between;
+            height: 80px;
+            width: 470px;
+            background-color: rgb(85, 85, 244);
+            border-radius: 2%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="cntr">
+            <div class="sub1">
+                <div class="dp"></div>
+                <div class="name">
+                    <h2 style="margin-left: 90px;">Raju Puli</h2>
+                    <h4 style="margin-left: 115px;">Artist</h4>
+                </div> <br>
+                <button style="height: 50px;width: 180px;border-radius: 15%;margin-left: 55px;">Follow</button> <br><br>
+                <button style="height: 50px;width: 180px;border-radius: 15%;margin-left: 55px;">Message</button>
+            </div>
+            <div class="sub2">
+                <div class="posts">
+                    <h1 style="margin-top: 40px;margin-left: 70px;">523</h1>
+                    <h4 style="margin-left: 70px;">Posts</h4>
+                </div>
+                <div class="likes">
+                    <h1 style="margin-top: 40px;margin-left: 70px;">1387</h1>
+                    <h4 style="margin-left: 72px;">Likes</h4>
+                </div>
+                <div class="follower">
+                    <h1 style="margin-top: 40px;margin-left: 70px;">10M</h1>
+                    <h4 style="margin-left: 70px;">Follower</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+    <div class="error">
+        <div class="parent">
+            <div class="child1" style="height: 330px;width: 450px;border: 2px solid white;">
+                <img style="margin-top: 20px;margin-left: 150px;" src="https://img.freepik.com/premium-vector/warning-icon-vector-isolated-white-background_162100-446.jpg" height="130" width="130" alt="">
+                <h1 style="margin-top: 15px;margin-left: 155px;">Oh snap!</h1>
+                <h2 style="height: 150px;width: 300px;margin-left: 85px;">An error has occured while creating an error report.</h2>
+            </div>
+            <div class="child2" style="height: 66px;width: 450px;border: 2px solid white;background-color: rgb(250, 47, 47);color: white;">
+                <h2 style="margin-left: 180px;">Dismiss</h2>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+    <div class="notify">
+        <div class="border2">
+            <div class="sb1">
+                <i style="margin-top: 30px;margin-left: 30px;color: white;" class="fa-solid fa-list"></i>
+            <h3 style="color: white;margin-top: 25px;">Notification</h3>
+            <i style="margin-top: 30px;margin-right: 20px;color: white;" class="fa-solid fa-magnifying-glass"></i>
+            </div> <br>
+            <div class="sb2">
+                <ul type="circle">
+                    <li><h3 style="color: rgba(19, 17, 17, 0.73);">9:24 AM</h3>
+                        <h2 style="color: rgba(19, 17, 17, 0.73);">John Walker posted a photo on <br> your wall.</h2>
+                    </li>
+                    <li><h3 style="color: rgba(19, 17, 17, 0.73);">8:19 AM</h3>
+                        <h2 style="color: rgba(19, 17, 17, 0.73);">Alice Parker commented your <br> last post.</h2>
+                    </li>
+                    <li><h3 style="color: rgba(19, 17, 17, 0.73);">Yesterday</h3>
+                        <h2 style="color: rgba(19, 17, 17, 0.73);">Luke Wayne added you as friend.</h2>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
